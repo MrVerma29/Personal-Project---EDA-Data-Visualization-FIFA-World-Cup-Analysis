@@ -5,49 +5,64 @@ With FIFA is in the blood of many people of the world. You are tasked to tell th
 trophy in the sport of football.
 The World Cups dataset shows all information about all the World Cups in history, while the World Cup Matches dataset shows all the results from the matches contested as part of the cup.
 
-# Metadata
-1. Table 1: WorldCupMatches
-Year: The year the World Cup was held.
-Datetime: The date and time the match was played.
-Stage: The stage of the tournament (e.g., Group 1, Group 2, Quarterfinals, etc.).
-Stadium: The stadium where the match was held.
-City: The city where the match was held.
-Home Team Name: The name of the home team.
-Home Team Goals: The number of goals scored by the home team.
-Away Team Goals: The number of goals scored by the away team.
-Away Team Name: The name of the away team.
-Win conditions: Conditions under which the match was won (if applicable).
-Attendance: The number of people who attended the match.
-Half-time Home Goals: The number of goals scored by the home team by half-time.
-Half-time Away Goals: The number of goals scored by the away team by half-time.
-Referee: The name of the referee.
-Assistant 1: The name of the first assistant referee.
-Assistant 2: The name of the second assistant referee.
-RoundID: A unique identifier for the round.
-MatchID: A unique identifier for the match.
-Home Team Initials: The initials of the home team.
-Away Team Initials: The initials of the away team.
-2. Table 2: WorldCupPlayers
-RoundID: A unique identifier for the round.
-MatchID: A unique identifier for the match.
-Team Initials: The initials of the team.
-Coach Name: The name of the coach.
-Line-up: Whether the player was in the starting lineup (S) or not (N).
-Shirt Number: The player's shirt number.
-Player Name: The name of the player.
-Position: The player's position (e.g., GK, DEF, MID, FWD).
-Event: Events involving the player (e.g., goals scored, cards received).
-3. Table 3: WorldCups
-Year: The year the World Cup was held.
-Country: The country where the World Cup was held.
-Winner: The team that won the World Cup.
-Runners-Up: The team that was the runner-up.
-Third: The team that finished in third place.
-Fourth: The team that finished in fourth place.
-GoalsScored: The total number of goals scored in the tournament.
-QualifiedTeams: The number of teams that qualified for the tournament.
-MatchesPlayed: The number of matches played in the tournament.
-Attendance: The total attendance for the tournament.
+Expected Outcomes:
+The FIFA World Cup Analysis aims to provide comprehensive insights into various aspects of the FIFA World Cup. The expected outcomes include:
+
+1. Historical Performance Analysis:
+
+Understanding the performance trends of different teams across various World Cups.
+Identifying key metrics that influenced the outcomes of matches and tournaments.
+2. Match Analysis:
+
+Insights into match outcomes based on goals scored, attendance, and match stages.
+Analysis of factors such as home advantage, referee influence, and win conditions.
+3. Player Performance Insights:
+
+Detailed analysis of player performances, including goals scored, positions played, and significant events.
+Impact of key players and coaches on match outcomes.
+4. Tournament Trends:
+
+Trends in goals scored, attendance, and the number of matches played over the years.
+Success rates of teams from different continents and historical shifts in football dominance.
+5. Visualized Insights for Fans:
+
+Interactive and visually appealing dashboards that answer common questions and provide insights for football enthusiasts.
+Storytelling through data to highlight memorable moments, key matches, and standout players.
+
+1. Targeted Variables
+
+The analysis will focus on the following key variables across the datasets:
+
+**WorldCupMatches Dataset**
+
+1. Year: To track the temporal aspect and trends over different World Cups.
+2. Stage: To analyze performance across different stages of the tournament.
+3. Home Team Name: To assess the home team performance and home advantage.
+4. Away Team Name: To evaluate the performance of away teams.
+5. Home Team Goals: Key metric for match outcomes and performance analysis.
+6. Away Team Goals: Another critical metric for match outcomes and analysis.
+7. Attendance: To understand the impact of crowd support and popularity of matches.
+8. Referee: To explore the potential influence of referees on match outcomes.
+9. MatchID: For unique identification and detailed analysis of individual matches.
+
+**WorldCupPlayers Dataset**
+
+1. Team Initials: For team-specific analysis and comparison.
+2. Coach Name: To evaluate the impact of different coaches.
+3. Player Name: For individual player performance analysis.
+4. Position: To understand the role and impact of players in different positions.
+5. Event: To capture significant events such as goals, cards, and substitutions.
+
+**WorldCups Dataset**
+
+1. Year: For historical trend analysis.
+2. Country: To examine the impact of hosting countries.
+3. Winner, Runners-Up, Third, Fourth: To analyze the performance of top teams.
+4. GoalsScored: To study offensive performance trends.
+5. QualifiedTeams: To explore the diversity and competitiveness of the tournament.
+6. MatchesPlayed: For overall tournament structure and match analysis.
+7. Attendance: For trends in spectator engagement and popularity.
+
 
 # Overall Summary:
 
