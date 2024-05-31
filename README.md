@@ -5,6 +5,50 @@ With FIFA is in the blood of many people of the world. You are tasked to tell th
 trophy in the sport of football.
 The World Cups dataset shows all information about all the World Cups in history, while the World Cup Matches dataset shows all the results from the matches contested as part of the cup.
 
+# Metadata
+1. Table 1: WorldCupMatches
+Year: The year the World Cup was held.
+Datetime: The date and time the match was played.
+Stage: The stage of the tournament (e.g., Group 1, Group 2, Quarterfinals, etc.).
+Stadium: The stadium where the match was held.
+City: The city where the match was held.
+Home Team Name: The name of the home team.
+Home Team Goals: The number of goals scored by the home team.
+Away Team Goals: The number of goals scored by the away team.
+Away Team Name: The name of the away team.
+Win conditions: Conditions under which the match was won (if applicable).
+Attendance: The number of people who attended the match.
+Half-time Home Goals: The number of goals scored by the home team by half-time.
+Half-time Away Goals: The number of goals scored by the away team by half-time.
+Referee: The name of the referee.
+Assistant 1: The name of the first assistant referee.
+Assistant 2: The name of the second assistant referee.
+RoundID: A unique identifier for the round.
+MatchID: A unique identifier for the match.
+Home Team Initials: The initials of the home team.
+Away Team Initials: The initials of the away team.
+2. Table 2: WorldCupPlayers
+RoundID: A unique identifier for the round.
+MatchID: A unique identifier for the match.
+Team Initials: The initials of the team.
+Coach Name: The name of the coach.
+Line-up: Whether the player was in the starting lineup (S) or not (N).
+Shirt Number: The player's shirt number.
+Player Name: The name of the player.
+Position: The player's position (e.g., GK, DEF, MID, FWD).
+Event: Events involving the player (e.g., goals scored, cards received).
+3. Table 3: WorldCups
+Year: The year the World Cup was held.
+Country: The country where the World Cup was held.
+Winner: The team that won the World Cup.
+Runners-Up: The team that was the runner-up.
+Third: The team that finished in third place.
+Fourth: The team that finished in fourth place.
+GoalsScored: The total number of goals scored in the tournament.
+QualifiedTeams: The number of teams that qualified for the tournament.
+MatchesPlayed: The number of matches played in the tournament.
+Attendance: The total attendance for the tournament.
+
 # Overall Summary:
 
 The FIFA World Cup is the pinnacle of international football, capturing the passion and dreams of billions of fans worldwide. The data and insights shed light on the intricate dynamics that shape this prestigious tournament's outcomes. Several factors emerge as crucial determinants of success, ranging from a nation's football culture and player development to strategic gameplay and hosting advantages.
