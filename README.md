@@ -5,31 +5,37 @@ With FIFA is in the blood of many people of the world. You are tasked to tell th
 trophy in the sport of football.
 The World Cups dataset shows all information about all the World Cups in history, while the World Cup Matches dataset shows all the results from the matches contested as part of the cup.
 
-Expected Outcomes:
-The FIFA World Cup Analysis aims to provide comprehensive insights into various aspects of the FIFA World Cup. The expected outcomes include:
+**Expected Outcomes**
 
-1. Historical Performance Analysis:
+The FIFA World Cup Analysis aims to provide a deep dive into various aspects of the tournament. Here's what we hope to achieve:
 
-Understanding the performance trends of different teams across various World Cups.
-Identifying key metrics that influenced the outcomes of matches and tournaments.
-2. Match Analysis:
+**1. Historical Performance Analysis**
 
-Insights into match outcomes based on goals scored, attendance, and match stages.
-Analysis of factors such as home advantage, referee influence, and win conditions.
-3. Player Performance Insights:
+* Understand how different teams perform across World Cups.
+* Identify key factors influencing match and tournament outcomes.
 
-Detailed analysis of player performances, including goals scored, positions played, and significant events.
-Impact of key players and coaches on match outcomes.
-4. Tournament Trends:
+**2. Match Analysis**
 
-Trends in goals scored, attendance, and the number of matches played over the years.
-Success rates of teams from different continents and historical shifts in football dominance.
-5. Visualized Insights for Fans:
+* Gain insights into match results based on factors like goals, attendance, and stage of the tournament.
+* Analyze the impact of home advantage, referee influence, and winning strategies.
 
-Interactive and visually appealing dashboards that answer common questions and provide insights for football enthusiasts.
-Storytelling through data to highlight memorable moments, key matches, and standout players.
+**3. Player Performance Insights**
 
-1. Targeted Variables
+* Deep dive into individual player performance, including goals scored, positions played, and key moments.
+* Analyze the impact of star players and coaches on match outcomes.
+
+**4. Tournament Trends**
+
+* Identify trends in goals scored, attendance, and number of matches played over time.
+* Explore the success rates of teams from different continents and historical shifts in football dominance.
+
+**5. Visualized Insights for Fans**
+
+* Create interactive and visually appealing dashboards that answer common questions and provide insights for fans.
+* Use data storytelling to highlight memorable moments, key matches, and standout players.
+
+
+**Targeted Variables**
 
 The analysis will focus on the following key variables across the datasets:
 
