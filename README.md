@@ -69,6 +69,54 @@ The analysis will focus on the following key variables across the datasets:
 6. MatchesPlayed: For overall tournament structure and match analysis.
 7. Attendance: For trends in spectator engagement and popularity.
 
+# Metadata
+**Table 1: WorldCupMatches**
+1. **Year**: The year the World Cup was held.
+2. **Datetime**: The date and time the match was played.
+3. **Stage**: The stage of the tournament (e.g., Group 1, Group 2, Quarterfinals, etc.).
+4. **Stadium**: The stadium where the match was held.
+5. **City**: The city where the match was held.
+6. **Home Team Name**: The name of the home team.
+7. **Home Team Goals**: The number of goals scored by the home team.
+8. **Away Team Goals**: The number of goals scored by the away team.
+9. **Away Team Name**: The name of the away team.
+10. **Win conditions**: Conditions under which the match was won (if applicable).
+11. **Attendance**: The number of people who attended the match.
+12. **Half-time Home Goals**: The number of goals scored by the home team by half-time.
+13. **Half-time Away Goals**: The number of goals scored by the away team by half-time.
+14. **Referee**: The name of the referee.
+15. **Assistant 1**: The name of the first assistant referee.
+16. **Assistant 2**: The name of the second assistant referee.
+17. **RoundID**: A unique identifier for the round.
+18. **MatchID**: A unique identifier for the match.
+19. **Home Team Initials**: The initials of the home team.
+20. **Away Team Initials**: The initials of the away team.
+
+**Table 2: WorldCupPlayers**
+
+1. **RoundID**: A unique identifier for the round.
+2. **MatchID**: A unique identifier for the match.
+3. **Team Initials**: The initials of the team.
+4. **Coach Name**: The name of the coach.
+5. **Line-up**: Whether the player was in the starting lineup (S) or not (N).
+6. **Shirt Number**: The player's shirt number.
+7. **Player Name**: The name of the player.
+8. **Position**: The player's position (e.g., GK, DEF, MID, FWD).
+9. **Event**: Events involving the player (e.g., goals scored, cards received).
+
+**Table 3: WorldCups**
+
+1. **Year**: The year the World Cup was held.
+2. **Country**: The country where the World Cup was held.
+3. **Winner**: The team that won the World Cup.
+4. **Runners-Up**: The team that was the runner-up.
+5. **Third**: The team that finished in third place.
+6. **Fourth**: The team that finished in fourth place.
+7. **GoalsScored**: The total number of goals scored in the tournament.
+8. **QualifiedTeams**: The number of teams that qualified for the tournament.
+9. **MatchesPlayed**: The number of matches played in the tournament.
+10. **Attendance**: The total attendance for the tournament.
+
 
 # Overall Summary:
 
